@@ -127,7 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EventProcessor.cpp" />
     <ClCompile Include="net-rom-telemetry.cpp" />
+    <ClCompile Include="SpeedEvent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EventProcessor.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SpeedEvent.h" />
+    <ClInclude Include="TelemetryEvent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="net-rom-telemetry.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
