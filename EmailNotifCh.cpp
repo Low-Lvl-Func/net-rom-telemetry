@@ -6,5 +6,5 @@ EmailNotifCh::EmailNotifCh(std::string email)
 	: email(std::move(email)) { }
 
 void EmailNotifCh::notify(const std::string& msg) {
-	std::cout << "sending sms to " << email << " .... " << msg << "\n";
+	std::cout << "sending email to " << email << " .... " << msg << "\n";
 }

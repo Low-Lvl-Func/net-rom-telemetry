@@ -12,6 +12,11 @@ void EventProcessor::addChannel(std::shared_ptr<NotifChannel> ch) {
 
 void EventProcessor::showEvents() const {
 	for (const auto& event : events) {
+		if (auto alert = event->getAlert()) {
+			for (const auto& channel : channels) {
+				channel->notify(*alert);
+			}
+		}
 		std::cout << event->getSummary() << std::endl;
 	}
 }
