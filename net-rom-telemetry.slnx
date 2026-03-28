@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="net-rom-telemetry.vcxproj" />
+  <Project Path="net-rom-telemetry.vcxproj" Id="fbd303c8-70fd-4f88-91fd-2db15402eaad" />
 </Solution>
