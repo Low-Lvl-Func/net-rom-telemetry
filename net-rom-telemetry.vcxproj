@@ -128,16 +128,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BatteryEvent.cpp" />
+    <ClCompile Include="EmailNotifCh.cpp" />
     <ClCompile Include="EventProcessor.cpp" />
     <ClCompile Include="LocationEvent.cpp" />
     <ClCompile Include="net-rom-telemetry.cpp" />
+    <ClCompile Include="SMSNotifCh.cpp" />
     <ClCompile Include="SpeedEvent.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BatteryEvent.h" />
+    <ClInclude Include="EmailNotifCh.h" />
     <ClInclude Include="EventProcessor.h" />
     <ClInclude Include="LocationEvent.h" />
+    <ClInclude Include="NotifChannel.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="SMSNotifCh.h" />
     <ClInclude Include="SpeedEvent.h" />
     <ClInclude Include="TelemetryEvent.h" />
   </ItemGroup>
